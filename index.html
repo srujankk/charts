@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"> </link>
+  <link rel="stylesheet" href="css/c3.css"></link>
+  <link rel="stylesheet" href="css/styles.css"></link>
+</head>
+<body>
+
+  <!-- layout markup -->
+  <div class="container">
+    <h1>Dashboard</h1>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        22 vendors
+      </div>
+    </div>
+
+    <div class="vendor-devices">
+      <select class="vendor-dropdown">
+      </select>
+      <div id="deviceChart" class="device-chart">
+        bar chart
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Including libraries-->
+  <script src="scripts/vendors/jquery.min.js"></script>
+  <script src="scripts/vendors/underscore.js"></script>
+  <script src="scripts/vendors/bootstrap.min.js"></script>
+  <script src="scripts/vendors/d3.min.js"></script>
+  <script src="scripts/vendors/c3.min.js"></script>
+
+  <script src="scripts/app/main.js"></script>
+
+
+</body>
+</html>
